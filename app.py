@@ -6,9 +6,6 @@ import pandas as pd
 def write():
 	st.title('Plagiarism Detection for Crypto Whitepapers Using SBERT')
 	st.subheader('by Sammie Kim')
-	# st.subheader('by Block Diamonds')
-	# st.subheader('by Mike Walmsley ([@mike\_walmsley\_](https://twitter.com/mike_walmsley_))')
-
 
 	st.markdown(
 	"""
@@ -46,21 +43,6 @@ def write():
 
 	"""
 	, unsafe_allow_html=True)
-	# should_tell_me_more = st.button('Tell me more about SBERT')
-	# if should_tell_me_more:
-	#     # tell_me_more()
-	#     st.markdown('---')
-
-	# # def tell_me_more():
-	#     st.title('Sentence BERT')
-
-	#     st.button('Back to Main')  # will change state and hence trigger rerun and hence reset should_tell_me_more
-
-	#     st.markdown("""
-	#     WHITE SOMETHING ABOUT SBERT
-	#     """)
-
-
 
 	st.markdown(
 	"""
